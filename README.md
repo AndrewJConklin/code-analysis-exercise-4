@@ -22,15 +22,15 @@ function (number){
 ```
 
 | Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| 1     | [0]    |
+| 12    | [1, 2] | 
+| 123   |[1, 2, 3]| 
+| 1234  |[1, 2, 3, 4]| 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes an inputted number, turns it into a string, splits the string into an array, reverses the array, then takes the index of each number and returns a new array with the indexes of the numbers.</td>
   </tr>
 </table>
 
